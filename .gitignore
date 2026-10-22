@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+target/
+build/
+
+# IDE / editors
+.idea/
+*.iml
+
+# Logs / temp
+logs/
+*.log
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local assets
+.claude/

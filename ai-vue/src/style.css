@@ -1,0 +1,31 @@
+/* 清除浏览器默认边距，让布局能够占满整个页面 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 后台布局容器撑满整个视口 */
+.common-layout,
+.common-layout > .el-container {
+  height: 100%;
+}
+
+/* Aside 位于左上角：占满左侧整列高度 */
+.el-aside {
+  background-color: #304156;
+  color: #fff;
+}
+
+/* Header 置顶：位于内容区最上方 */
+.el-header {
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e4e7ed;
+}
+
+/* Main 占满剩余空间 */
+.el-main {
+  background-color: #fff;
+}
